@@ -1,0 +1,44 @@
+# Confidential and derived data (never commit)
+data/
+raw_data/
+private/
+outputs/
+results/
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+*.nc
+*.tif
+*.tiff
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.ubj
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
